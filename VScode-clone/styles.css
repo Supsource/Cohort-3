@@ -1,0 +1,137 @@
+body {
+    background-color: #0e0e0e;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    margin: 0;
+    color: #9ba3b4;
+  }
+  
+  .header {
+    color: white;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 24px;
+    padding-right: 5px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    color: white;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    border-radius: 8px;
+    padding: 8px 15px;
+    background: transparent;
+    border: 2px rgba(255, 255, 255, 0.07) solid;
+    width: 200px;
+    height: 35px;
+    margin-right: 5px;
+  }
+  
+  .download-button {
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    background-color: #0078D3;
+    padding: 8px 15px;
+    border: none;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+  }
+  
+  .announcement {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .version-link {
+    color: #4daafc;
+    padding-right: 5px;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px 50px;
+    margin-top: 25px;
+  }
+  
+  .content-left {
+    padding-right: 50px;
+  }
+  
+  .tagline {
+    margin-top: 80px;
+    border-radius: 32px;
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px rgba(255, 255, 255, 0.07) solid;
+    width: max-content;
+  }
+  
+  .main-heading {
+    color: white;
+    font-weight: 600;
+    font-size: 58px;
+  }
+  
+  .download-section {
+    font-size: 14px;
+  }
+  
+  .download-button-large {
+    color: white;
+    font-size: 18px;
+    background-color: #0078D3;
+    padding: 14px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .agreement-text {
+    color: #9ba3b4;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .screenshot {
+    width: 800px;
+    height: 500px;
+  }
+  
