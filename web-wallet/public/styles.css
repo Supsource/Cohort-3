@@ -1,16 +1,95 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
-  
-  h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     color: #333;
-  }
-  
-  a {
-    display: block;
-    margin: 10px 0;
-    color: #0066cc;
-    text-decoration: none;
-  }
-  
+}
+
+.container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+button:hover:not(:disabled) {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:active:not(:disabled) {
+    background-color: #1c6ea4;
+    transform: translateY(0);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+#mnemonic {
+    font-size: 1.2em;
+    color: #34495e;
+    word-break: break-word;
+    margin: 20px 0;
+    padding: 10px;
+    background: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+}
+
+#wallets {
+    margin: 20px 0;
+    text-align: left;
+}
+
+#wallets div {
+    background: #ffffff;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#wallets h3 {
+    font-size: 1.2em;
+    color: #2c3e50;
+    margin: 0 0 10px 0;
+}
+
+#wallets p {
+    font-size: 1em;
+    color: #7f8c8d;
+    margin: 5px 0;
+}
+
