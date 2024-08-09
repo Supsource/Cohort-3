@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Mnemonic</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <h1>Mnemonic Generated</h1>
+  <p>Your Mnemonic: <%= mnemonic %></p>
+  <form action="/add-wallet" method="post">
+    <input type="hidden" name="mnemonic" value="<%= mnemonic %>">
+    <button type="submit">Add Wallet</button>
+  </form>
+  <a href="/">Back to Home</a>
+</body>
+</html>

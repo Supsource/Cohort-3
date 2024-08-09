@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wallets</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <h1>Your Wallets</h1>
+  <ul>
+    <% wallets.forEach(wallet => { %>
+      <li>Address: <%= wallet.address %> | Public Key: <%= wallet.publicKey %></li>
+    <% }); %>
+  </ul>
+  <a href="/">Back to Home</a>
+</body>
+</html>
